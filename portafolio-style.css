@@ -8,6 +8,8 @@
     font-size: 16px;
     line-height: 2,5;
     margin: 20px 15px;
+    text-transform: uppercase;
+    font-weight: 900;
 
 }
 
@@ -40,6 +42,8 @@ ul li {
 #contacto a {
     background-color: #F1A208;
     color: #313638;
+    padding: 10px;
+    border-radius: 9px;
 }
 
 #presentacion {
@@ -55,6 +59,8 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+    line-height: 2,5;
 }
 
 #img-presentando {
@@ -64,14 +70,44 @@ ul li {
 
 #habilidades {
     padding: 25px 0;
+    background-color: #6A994E;
+}
+
+#lenguajes {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding: 25px 0;
     margin-bottom: 1px;
+}
+
+i {
+    font-size: 125px;
+    line-height: 2,5;
+    margin: 20px 15px; 
+}
+
+.len {
+    margin: 1em;
+    border: 1px solid #6A994E;
+    border-radius: 9px;
+    width: 33%;
+    flex-wrap: wrap;
+    padding: 20px 15px; 
+    background-color: #E8E9EB;
 }
 
 #cita {
     background-color: #313638;
     color: #F1A208;
     padding: 25px 0;
+}
+
+
+#proyectos {
+    padding: 25px 0;
     margin-bottom: 1px;
+    background-color: #6A994E;
 }
 
 #tarjetas {
@@ -82,13 +118,15 @@ ul li {
     margin-bottom: 1px;
 }
 
-#col {
+.col {
     margin: 1em;
     border: 1px solid #6A994E;
     border-radius: 9px;
     width: 33%;
     flex-wrap: wrap;
     /* justify-content: space-around; */
+    background-color: #fff;
+    padding: 20px 15px; 
 
 }
 
@@ -96,19 +134,34 @@ ul li {
     width: 100%;    
 }
 
-#proyectos {
+
+#form-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
     padding: 25px 0;
     margin-bottom: 1px;
 }
 
-#form-contacto {
-    padding: 25px 0;
-    margin-bottom: 1px;
+#form-izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    line-height: 2,5;
+}
+
+#form-der {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 
 footer {
     padding: 25px 0;
-    margin-bottom: 1px;
+    background-color: #6A994E;
 }
 
 #nav-footer {
@@ -117,6 +170,7 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    padding: 25px 0;
 }
 
 #contacto-footer {
