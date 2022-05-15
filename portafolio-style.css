@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+#nav-header li, #nav-footer li {
+    display: inline;
+}
+
+#nav-header {
+    color: #DA4167;
+    background-color: #313638;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+
+#contacto {
+    background-color: #F1A208;
+    color: #313638;
+}
+
+#presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#presentacion-izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-presentando {
+    width: 75%;
+    height: 75%;
+}
+
+#cita {
+    background-color: #313638;
+    color: #F1A208;
+}
+
+#nav-footer {
+    color: #DA4167;
+    background-color: #313638;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
