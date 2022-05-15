@@ -5,6 +5,15 @@
 
 #nav-header li, #nav-footer li {
     display: inline;
+    font-size: 16px;
+    line-height: 2,5;
+    margin: 20px 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #DA4167;
 }
 
 #nav-header {
@@ -13,10 +22,22 @@
     display: flex;
     align-items: flex-end;
     justify-content: end;
+    padding: 25px 0;
+    /* position: fixed; */j
+    top: 0;
+    margin-bottom: 1px;
 }
 
 
-#contacto {
+ul {
+    list-style: none;
+}
+
+ul li {
+    line-height: 2,5;
+}
+
+#contacto a {
     background-color: #F1A208;
     color: #313638;
 }
@@ -26,6 +47,8 @@
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
+    padding: 25px 0;
+    margin-bottom: 1px;
 }
 
 #presentacion-izq {
@@ -39,16 +62,24 @@
     height: 75%;
 }
 
+#habilidades {
+    padding: 25px 0;
+    margin-bottom: 1px;
+}
+
 #cita {
     background-color: #313638;
     color: #F1A208;
+    padding: 25px 0;
+    margin-bottom: 1px;
 }
 
 #tarjetas {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
-    
+    padding: 25px 0;
+    margin-bottom: 1px;
 }
 
 #col {
@@ -65,10 +96,40 @@
     width: 100%;    
 }
 
+#proyectos {
+    padding: 25px 0;
+    margin-bottom: 1px;
+}
+
+#form-contacto {
+    padding: 25px 0;
+    margin-bottom: 1px;
+}
+
+footer {
+    padding: 25px 0;
+    margin-bottom: 1px;
+}
+
 #nav-footer {
     color: #DA4167;
     background-color: #313638;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+
+#contacto-footer {
+    padding: 25px 0;
+    background-color: #6A994E;
+}
+
+#contacto-footer a {
+    font-size: 16px;
+    line-height: 2,5;
+    margin: 20px 15px;
+}
+
+#footer-bio {
+    background-color: #6A994E;
 }
