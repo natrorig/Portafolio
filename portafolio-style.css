@@ -44,6 +44,21 @@
     color: #F1A208;
 }
 
+#tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#tarjetas img {
+    width: 50%;
+    height: 50%;
+    flex: 1;
+}
+
 #nav-footer {
     color: #DA4167;
     background-color: #313638;
