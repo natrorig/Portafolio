@@ -25,9 +25,10 @@ a {
     align-items: flex-end;
     justify-content: end;
     padding: 25px 0;
-    /* position: fixed; */j
+    position: fixed;
     top: 0;
     margin-bottom: 3px black;
+    width: 100%;
 }
 
 
@@ -39,6 +40,11 @@ ul li {
     line-height: 2,5;
 }
 
+p , h1, h2, h3, h4 {
+    line-height: 2,5;
+    padding: 10px 0;
+}
+
 #contacto a {
     background-color: #F1A208;
     color: #313638;
@@ -46,7 +52,7 @@ ul li {
     border-radius: 9px;
 }
 
-#presentacion {
+.presentacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,30 +61,37 @@ ul li {
     background-color:#E8E9EB;
 }
 
-#presentacion-izq {
+.presentacion-izq {
+    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 65%;
     line-height: 2,5;
+    border-radius: 16px;
+}
+
+.presentacion-der {
+    padding-top: 8vh;
 }
 
 #img-presentando {
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 60%;
+    background-color:#E8E9EB;
 }
 
-#habilidades {
+.habilidades {
     padding: 25px 0;
     background-color: #6A994E;
 }
 
-#lenguajes {
+.lenguajes {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding: 25px 0;
-    margin-bottom: 1px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
 }
 
 i {
@@ -88,12 +101,11 @@ i {
 }
 
 .len {
-    margin: 1em;
     border: 1px solid #6A994E;
     border-radius: 9px;
-    width: 33%;
-    flex-wrap: wrap;
-    padding: 20px 15px; 
+    width: 30%;
+    padding: 20px 0px;
+    margin-top: 2vh; 
     background-color: #E8E9EB;
 }
 
@@ -101,6 +113,7 @@ i {
     background-color: #313638;
     color: #F1A208;
     padding: 25px 0;
+    line-height: 2,5;
 }
 
 
@@ -109,27 +122,27 @@ i {
     background-color: #6A994E;
 }
 
-#tarjetas {
+.tarjetas {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding: 25px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
 }
 
 .col {
-    margin: 1em;
     border: 1px solid #6A994E;
     border-radius: 9px;
-    width: 33%;
-    flex-wrap: wrap;
-    /* justify-content: space-around; */
+    width: 30%;
+    justify-content: space-evenly;
     background-color: #fff;
-    padding: 20px 15px; 
-
+    padding: 20px 0px;
+    margin-top: 2vh; 
 }
 
 #tarjetas img {
-    width: 100%;    
+    width: 60%;
+    height: 60%;    
 }
 
 
