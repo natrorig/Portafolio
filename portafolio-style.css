@@ -46,17 +46,23 @@
 
 #tarjetas {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     padding-top: 100px;
-    margin: auto;
     padding-bottom: 100px;
+    
+}
+
+#col {
+    margin: 1em;
+    border: 1px solid #6A994E;
+    border-radius: 9px;
+    width: 33%;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+
 }
 
 #tarjetas img {
-    width: 50%;
-    height: 50%;
-    flex: 1;
+    width: 100%;    
 }
 
 #nav-footer {
