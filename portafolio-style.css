@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#nav-header li, #nav-footer li {
+.nav-header li, .nav-footer li {
     display: inline;
     font-size: 16px;
     line-height: 2,5;
@@ -19,7 +19,7 @@ a {
     color: #DA4167;
 }
 
-#nav-header {
+.nav-header {
     color: #DA4167;
     background-color: #313638;
     display: flex;
@@ -124,7 +124,7 @@ i {
     background-color: #E8E9EB;
 }
 
-#cita {
+.cita {
     background-color: #313638;
     color: #F1A208;
     padding: 25px 0;
@@ -132,7 +132,7 @@ i {
 }
 
 
-#proyectos {
+.proyectos {
     padding: 25px 0;
     background-color: #6A994E;
 }
@@ -155,13 +155,13 @@ i {
     margin-top: 2vh; 
 }
 
-#tarjetas img {
+.tarjetas img {
     width: 60%;
     height: 60%;    
 }
 
 
-#form-contacto {
+.form-contacto {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,7 +170,7 @@ i {
     background-color:#E8E9EB;
 }
 
-#form-izq {
+.form-izq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,13 +178,13 @@ i {
     line-height: 2,5;
 }
 
-#form-izq i{
+.form-izq i{
     font-size: 3vh;
     line-height: 2,5;
     margin: 20px 15px; 
 }
 
-#form-der {
+.form-der {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,7 +193,7 @@ i {
 }
 
 form {
-    padding: 50px;
+    padding: 3vh;
 }
 
 
@@ -202,7 +202,7 @@ footer {
     background-color: #6A994E;
 }
 
-#nav-footer {
+.nav-footer {
     color: #DA4167;
     background-color: #313638;
     display: flex;
@@ -211,23 +211,25 @@ footer {
     padding: 25px 0;
 }
 
-#contacto-footer {
+.contacto-footer {
     padding: 25px 0;
     background-color: #6A994E;
 }
 
-#contacto-footer a {
+.contacto-footer a {
     font-size: 16px;
     line-height: 2,5;
     margin: 20px 15px;
 }
 
-#contacto-footer i {
+.contacto-footer i {
     font-size: 6vh;
     line-height: 2,5;
     margin: 20px 15px; 
 }
 
-#footer-bio {
+.footer-bio {
     background-color: #6A994E;
+    line-height: 1;
+    margin: 0 5em;
 }

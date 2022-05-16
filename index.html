@@ -11,11 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
     <header>
-        <nav id="nav-header">
+        <nav class="nav-header" id="nav-header">
             <ul>
                 <li><a href="#presentacion">Hola</a></li>
                 <li><a href="#habilidades">Conocimientos</a></li>
@@ -46,7 +50,7 @@
     <!-- Habilidades -->
     <div class="habilidades" id="habilidades">
         <h2>Mis Conocimientos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusamus sapiente praesentium, quas ea placeat distinctio voluptates id obcaecati unde nam earum optio similique in, a nisi facilis? Aspernatur, vel?</p>
+        <p>En el curso de ADA de Front-End Developer aprendí sobre: </p>
         <!-- svg lenguajes -->
         <div class="lenguajes">
             <div class="len">
@@ -80,18 +84,19 @@
 
 
     <!-- Cita -->
-    <div id="cita">
-        <h1>"</h1>
-        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quidem, dicta nesciunt autem repellat sequi cum doloremque ullam ratione. Nemo obcaecati architecto repudiandae adipisci at, tempora magni vitae cupiditate deleniti!</h4>
-        <h3>Pepito</h3>
+    <div class="cita" id="cita">
+        <i class="fa-solid fa-quote-right"></i>
+        <h4>"No conocerás el miedo. El miedo mata la mente. El miedo es la pequeña muerte que conduce a la destrucción total. Afrontaré mi miedo. Permitiré que pase sobre mí y a través de mí. Y cuando haya pasado girare mi ojo interior para escrutar su camino. Allá donde haya pasado el miedo ya no habrá nada. Solo estare yo."</h4>
+        <h3>Frank Herbert, Dune (Dune #1)</h3>
     </div>
     <!-- FIN Cita -->
 
 
     <!-- Lista y Grilla de Proyectos -->
-    <div id="proyectos">
+    <div class="proyectos" id="proyectos">
         <h2>Mis Proyectos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae, vitae, nemo accusantium veritatis saepe architecto, harum necessitatibus perspiciatis ullam maiores odit itaque est cupiditate repudiandae omnis? Provident, mollitia asperiores!</p>
+        <p>Estos son los trabajos que realice para el curso de ADA de Front-End Developer.</p>
+        <p>Nota: Si no funciona el enlace es porque el proyecto todavía no se encuentra deployado.</p>
         <!-- Tarjetas -->
         <div class="tarjetas" id="tarjetas">
             <div class="col">
@@ -127,11 +132,11 @@
 
 
     <!-- Formulario de Contacto -->
-    <div id="form-contacto">
+    <div class="form-contacto" id="form-contacto">
         <!-- Formulario izq -->
-        <div id="form-izq">
+        <div class="form-izq" id="form-izq">
             <h2>Contactame</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae veritatis aliquam, reprehenderit nihil aperiam nam eaque a optio esse et. Aut velit at quis quas laboriosam unde nihil beatae dolore.</p>
+            <p>Si te interesa saber mas sobre mí te invito a visitar mis redes, escribirme un e-mail o dejarme un mensajito en el formulario de la derecha  ♥</p>
             <a href="https://github.com/natrorig/" target=”_blank”><i class="fa-brands fa-github-alt"></i>natrorig</a>
             
             <a href="https://www.linkedin.com/in/nrigazio/" target=”_blank”><i class="fa-brands fa-linkedin"></i>nrigazio</a>
@@ -141,7 +146,7 @@
         <!-- FIN Formulario izq -->
 
         <!-- Formulario DER -->
-        <div id="form-der">
+        <div class="form-der" id="form-der">
             <h2>Escribime</h2>
             <!-- FORM -->
             <form>
@@ -166,7 +171,7 @@
 
     <!-- Footer con links de navegacion y links de contacto -->
     <footer>
-        <nav id="nav-footer">
+        <nav class="nav-footer" id="nav-footer">
             <ul>
                 <li><a href="#presentacion">Hola</a></li>
                 <li><a href="#habilidades">Conocimientos</a></li>
@@ -176,18 +181,20 @@
         </nav>
 
         <!-- Contacto Footer -->
-        <div id="contacto-footer">
+        <div class="contacto-footer" id="contacto-footer">
             <a href="https://github.com/natrorig/" target=”_blank”><i class="fa-brands fa-github-alt"></i></a>
 
             <a href="https://www.linkedin.com/in/nrigazio/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
 
-            <a href="mailto:nataliarigazio@gmail.com"><i class="fa-solid fa-at"></i></i></a>
+            <a href="mailto:nataliarigazio@gmail.com"><i class="fa-solid fa-at"></i></a>
         </div>
         <!-- FIN Contacto Footer -->
 
-        <div id="footer-bio">
+        <div class="footer-bio" id="footer-bio">
             <p>Natalia Rocio Rigazio es bióloga, escritora y desarrolladora front-end. </p> 
-            <p>Es conocida por su amor por los animales marinos, pero también le encantan las películas de estudio Ghibli, los perros, el mate y los fermentos.</p>
+            <p>Es conocida por su amor por los animales marinos. </p> 
+            <p>También le encantan las películas de estudio Ghibli, los perros, el mate y los fermentos.</p>
+            <p> ♥ ♥ ♥ ♥ ♥</p>
         </div>
     </footer>
 </body>
