@@ -17,7 +17,6 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-
     <header>
         <nav class="nav-header" id="nav-header">
             <ul>
@@ -35,7 +34,8 @@
         <div class="presentacion-izq">
             <h4><em>¡Hola!</em> Soy</h3>
             <h1>Natalia Rocio Rigazio</h1>
-            <h4>desarrolladora, bióloga,</h4> <h4>catadora de mate</h4>
+            <h4>desarrolladora, bióloga,</h4>
+            <h4>catadora de mate</h4>
             <br>
             <a href="#proyectos">Lo que hago</a>
         </div>
@@ -55,27 +55,27 @@
         <div class="lenguajes">
             <div class="len">
                 <i class="devicon-html5-plain colored"></i>
-                <h3>HTML5</h3>
+                <p>HTML5</p>
             </div>
             <div class="len">
                 <i class="devicon-css3-plain colored"></i>
-                <h3>CSS 3</h3>
+                <p>CSS 3</p>
             </div>
             <div class="len">
                 <i class="devicon-sass-original colored"></i>
-                <h3>Sass</h3>
+                <p>Sass</p>
             </div>
             <div class="len">
                 <i class="devicon-javascript-plain colored"></i>
-                <h3>JavaScript</h3>
+                <p>JavaScript</p>
             </div>
             <div class="len">
                 <i class="devicon-react-original colored"></i>
-                <h3>React</h3>
+                <p>React</p>
             </div>
             <div class="len">
                 <i class="devicon-git-plain colored"></i>
-                <h3>Git</h3>
+                <p>Git</p>
             </div>
         </div>
         <!-- FIN svg lenguajes -->
@@ -87,7 +87,7 @@
     <div class="cita" id="cita">
         <i class="fa-solid fa-quote-right"></i>
         <h4>"No conocerás el miedo. El miedo mata la mente. El miedo es la pequeña muerte que conduce a la destrucción total. Afrontaré mi miedo. Permitiré que pase sobre mí y a través de mí. Y cuando haya pasado girare mi ojo interior para escrutar su camino. Allá donde haya pasado el miedo ya no habrá nada. Solo estare yo."</h4>
-        <h3>Frank Herbert, Dune (Dune #1)</h3>
+        <h3>Frank Herbert, Dune #1</h3>
     </div>
     <!-- FIN Cita -->
 
@@ -100,30 +100,30 @@
         <!-- Tarjetas -->
         <div class="tarjetas" id="tarjetas">
             <div class="col">
-                <a href="https://natrorig.github.io/Portafolio/"><img id="img-portafolio" src="images/portafolio.svg", alt="persona con carteles de html y css"><h3>Portafolio</h3></a>
+                <a href="https://natrorig.github.io/Portafolio/"><img id="img-portafolio" src="images/portafolio.svg", alt="persona con carteles de html y css"><p>Portafolio</p></a>
             </div>
             <div class="col">
                 <img id="img-generador-memes" src="images/memes.svg", alt="persona mirando su celular">
-                <h3>Generador de Memes</h3>
+                <p>Generador de Memes</p>
             </div>
             <div class="col">
                 <img id="img-match" src="images/match.svg", alt="persona tomando cafe frente a su computadora de noche">
-                <h3>Match 3</h3>
+                <p>Match 3</p>
             </div>
             <div class="col">
                 <img id="img-gastos" src="images/gastos.svg", alt="persona enviando dinero desde su celular">
-                <h3>Controlador de Gastos</h3>
+                <p>Controlador de Gastos</p>
             </div>
             <div class="col">
-                <img id="img-reuniones" src="images/reuniones.svg", alt="persona frente a un mapa del mundo con distintos horarios"><h3>Administrador de Reuniones</h3>
+                <img id="img-reuniones" src="images/reuniones.svg", alt="persona frente a un mapa del mundo con distintos horarios"><p>Administrador de Reuniones</p>
             </div>
             <div class="col">
                 <img id="img-todo-app" src="images/todo-app.svg", alt="persona frente a una pantalla tactil seleccionando casillas">
-                <h3>Todo App</h3>
+                <p>Todo App</p>
             </div>
             <div class="col">
                 <img id="img-video" src="images/video.svg", alt="dos personas mirando una pelicula">
-                <h3>Buscador de películas</h3>
+                <p>Buscador de películas</p>
             </div>
         </div>
         <!-- FIN Tarjetas -->
@@ -151,14 +151,16 @@
             <!-- FORM -->
             <form>
                 <!-- Nombre Apellido Mail Mensaje -->
-                <label for="name">Nombre:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                <label for="apellido">Apellido:</label><br>
-                    <input type="text" id="apellido" name="apellido"><br>
-                <label for="email">e-mail:</label><br>
+                <div class="form-nombre-apellido">
+                    <label for="name">Nombre: *</label>
+                        <input type="text" id="name" name="name">
+                    <label for="apellido">Apellido: *</label>
+                        <input type="text" id="apellido" name="apellido">
+                </div>
+                <label for="email">e-mail: *</label><br>
                     <input type="text" id="email" name="email"><br>
-                <label for="mensaje">Mensaje:</label><br>
-                    <input type="text" id="mensaje" name="mensaje"><br>
+                <label for="mensaje">Mensaje: *</label><br>
+                    <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escriba un mensaje"></textarea><br>
                 <input type="submit" value="Enviar">
               </form> 
             <!-- FIN FORM -->
