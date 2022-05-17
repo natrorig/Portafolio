@@ -41,11 +41,6 @@ ul li {
     line-height: 2,5;
 }
 
-/* p, h1, h2, h3, h4 {
-    line-height: 2,5;
-    padding: 10px 0;
-    margin: 0 5em;
-} */
 
 #contacto a {
     background-color: #F1A208;
@@ -61,6 +56,7 @@ ul li {
     vertical-align: middle;
     padding: 25px 0;
     background-color:#E8E9EB;
+    height: 70vh;
 }
 
 .presentacion-izq {
@@ -131,6 +127,9 @@ i {
     line-height: 2,5;
 }
 
+.cita i {
+    font-size: 100px;
+}
 
 .proyectos {
     padding: 25px 0;
@@ -188,8 +187,9 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 60%;
     background-color: #6A994E;
+    text-align: left;
 }
 
 form {
@@ -199,8 +199,21 @@ form {
 
 .form-nombre-apellido {
     display: flex;
+    align-items: left;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: left;
+}
+
+.form-apellido{
+    flex: 1;
+}
+
+.form-nombre {
+    flex: 1;
+}
+
+.form-mensaje {
+    flex: 40;
 }
 
 footer {

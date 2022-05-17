@@ -152,16 +152,24 @@
             <form>
                 <!-- Nombre Apellido Mail Mensaje -->
                 <div class="form-nombre-apellido">
-                    <label for="name">Nombre: *</label>
-                        <input type="text" id="name" name="name">
-                    <label for="apellido">Apellido: *</label>
-                        <input type="text" id="apellido" name="apellido">
+                    
+                    <div class="form-nombre">
+                        <label for="name">Nombre: *</label>
+                        <input type="text" id="name" name="name" required="">
+                    </div>
+
+                    <div class="form-apellido">
+                        <label for="apellido">Apellido: *</label>
+                        <input type="text" id="apellido" name="apellido" required="">
+                    </div>
                 </div>
+
                 <label for="email">e-mail: *</label><br>
-                    <input type="text" id="email" name="email"><br>
-                <label for="mensaje">Mensaje: *</label><br>
-                    <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escriba un mensaje"></textarea><br>
-                <input type="submit" value="Enviar">
+                <input type="email" id="email" name="email" required=""><br>
+
+                    <label for="mensaje">Mensaje: *</label><br>
+                    <textarea class="form-mensaje" id="mensaje" name="mensaje" required="" placeholder="Escriba un mensaje para Natalia"></textarea><br>
+                <button type="submit">Enviar</button>
               </form> 
             <!-- FIN FORM -->
         </div>
